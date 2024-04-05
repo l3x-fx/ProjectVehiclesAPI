@@ -11,7 +11,6 @@ import javax.persistence.Id;
 public class Manufacturer {
 
     @Id
-    @GeneratedValue
     private Integer code;
     private String name;
 
