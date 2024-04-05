@@ -1,6 +1,7 @@
 package com.udacity.vehicles.domain.manufacturer;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
@@ -10,6 +11,7 @@ import javax.persistence.Id;
 public class Manufacturer {
 
     @Id
+    @GeneratedValue
     private Integer code;
     private String name;
 
